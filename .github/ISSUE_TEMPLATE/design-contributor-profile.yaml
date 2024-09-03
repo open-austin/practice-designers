@@ -1,15 +1,42 @@
-name: New Component Discussion Ticket
-description: Issue ticket for discussing a new component
-title:  "{Component Name} Discussion Ticket"
-labels: [ "design", "design system", "discussion"]
+name: New design contributor profile
+description: Issue ticket for introducing oneself as a potential project contributor
+title:  "{Your Name}: Design Contributor Profile"
+labels: [ "design", "contributor profile"]
 assignees:
-  - octocat
+  - jcklpe
 body:
   - type: textarea
-    id: description
+    id: introduction
     attributes:
-      label: Description
-      description: Basic description of what the use case for the component is.
+      label: Introduction
+      description: Brief introduction of who you are and your interest in Open Austin
+      placeholder:
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: what-i-know
+    attributes:
+      label: What I know
+      description: List in bullet point form your skills. This can include design workshop or UX research methodologies, and software.
+      placeholder:
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: what-i-want-to-know
+    attributes:
+      label: What I want to know
+      description: What are somethings you'd like to gain more experience with?
+      placeholder:
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: contact
+    attributes:
+      label: Contact info
+      description: What's some contact info you are willing to share, such as email, in case someone wants to recruit you to an Open Austin project? (NOTE! this is a public repo!)
       placeholder:
       value:
     validations:
