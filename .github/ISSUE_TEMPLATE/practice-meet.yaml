@@ -3,12 +3,13 @@ description: Issue ticket to collect assets for your practice meet.
 title:  "{Your Name}: {Practice area} Practice Meet - {Month}"
 labels: [ ]
 assignees:
+  - octocat
 body:
   - type: textarea
     id: title
     attributes:
       label: Talk title
-      description: 
+      description:
       placeholder:
       value:
     validations:
@@ -16,8 +17,8 @@ body:
   - type: textarea
     id: name
     attributes:
-      label: Your mame
-      description: 
+      label: Your name
+      description:
       placeholder:
       value:
     validations:
@@ -26,7 +27,7 @@ body:
     id: logistics
     attributes:
       label: Date, time, location
-      description: 
+      description:
       placeholder:
       value:
     validations:
