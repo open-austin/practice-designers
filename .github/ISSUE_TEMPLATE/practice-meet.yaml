@@ -36,7 +36,7 @@ body:
     id: blurb
     attributes:
       label: Blurb + Photo
-      description: One-sentence description of the session.  Example https://www.instagram.com/p/C_ODL_UJQ2L/ and add a photo of you to be used in the flyer.
+      description: One-sentence description of the session.  Example https://www.instagram.com/p/C_3CMvvtx2K/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==  and add a photo of you to be used in the flyer.
       placeholder:
       value:
     validations:
