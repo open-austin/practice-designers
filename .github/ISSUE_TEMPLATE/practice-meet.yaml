@@ -35,17 +35,8 @@ body:
   - type: textarea
     id: blurb
     attributes:
-      label: Blurb
-      description: One-sentence description of the session.  Example https://www.instagram.com/p/C_ODL_UJQ2L/
-      placeholder:
-      value:
-    validations:
-      required: true
-  - type: textarea
-    id: photo
-    attributes:
-      label: Blurb
-      description: Please upload a photo of you.  It will be used in your flyer.  Example https://www.instagram.com/p/C_3CMvvtx2K/
+      label: Blurb + Photo
+      description: One-sentence description of the session.  Example https://www.instagram.com/p/C_ODL_UJQ2L/ and add a photo of you to be used in the flyer.
       placeholder:
       value:
     validations:
